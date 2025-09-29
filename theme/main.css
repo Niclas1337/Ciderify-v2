@@ -1,0 +1,85 @@
+/* Ciderfy */
+
+/* Gradient BG for Apple Music Pages */
+.q-page.q-py-lg.q-px-xl, .q-page.q-pa-lg.q-px-xl {
+    background-image: linear-gradient(rgba(from var(--musicKeyColor) r g b / 0.25) 0%, transparent 8%);
+}
+
+
+/* Make Emotion Engine gradient blend into gray bg */
+.color-bloom.loaded {
+    z-index:0;
+}
+
+
+/* Playback bar edits */
+.action-active > div > svg {
+    filter: drop-shadow(0px 0px 4px white);
+    overflow: visible;
+}
+
+playback-action-button.action-small.action-active {
+    overflow: visible;
+}
+
+.player {
+    box-shadow: unset;
+}
+
+.action-small:not(.action-active) > div > svg {
+    filter: brightness(0.5);
+}
+
+.nucleo-icon {
+    overflow: visible;
+}
+
+
+/* Nav button edits */
+.q-btn {
+    box-shadow: unset;
+    background-color: rgba(from var(--musicKeyColor) r g b / 0.5);
+    background-blend-mode: overlay;
+}
+
+
+/* Cider Sidebar Edits */
+.new-shell[data-layout-type='mojave'] > div > div.ns-split-view > div.ns-sidebar.ns-sidebar--left > div.q-list.q-list--dark > div {
+    padding: 10px 0px 2px 0px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 10px;
+}
+
+.new-shell[data-layout-type='maverick'] > div > div.ns-split-view > div.ns-sidebar.ns-sidebar--left > div.q-list.q-list--dark > div {
+    padding: 10px 0px 2px 0px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 10px;
+}
+
+.new-shell[data-layout-type='mojave-if'] > div > div.ns-split-view > div.ns-sidebar.ns-sidebar--left > div.q-list.q-list--dark > div {
+    padding: 0px 0px 2px 0px;
+}
+
+.new-shell[data-layout-type='maverick-if'] > div > div.ns-split-view > div.ns-sidebar.ns-sidebar--left > div.q-list.q-list--dark > div {
+    padding: 0px 0px 2px 0px;
+}
+
+
+
+/* De-style search box */
+.search-box {
+    border-radius: 40px;
+}
+
+.search-box_container:after {
+    box-shadow: unset;
+}
+
+.new-shell-page-container {
+    box-shadow: unset;
+}
+
+.new-shell-page-container {
+    box-shadow: unset;
+}
+

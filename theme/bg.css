@@ -1,0 +1,22 @@
+/* BG COLOR OVERRIDE */
+
+:root {
+    --q-dark: #000000 !important;
+    --q-dark-page: #000 !important
+}
+
+#app-viewport {
+    background-color: #000000 !important;
+}
+
+.q-page.q-py-lg.q-px-xl, .q-page.q-pa-lg.q-px-xl {
+    background-image: linear-gradient(rgba(from var(--musicKeyColor) r g b / 0.25) 0%, rgba(18,18,18,255) 8%) !important;
+}
+
+.cider-sidebar {
+    background-color: rgba(18,18,18,255) !important;
+}
+
+.new-shell-page-container {
+    background-color: rgba(18,18,18,255) !important;
+}

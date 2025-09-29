@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Circular';
+  src: url('Spotify Circular/circular-book.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Circular';
+  src: url('Spotify Circular/circular-medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Circular';
+  src: url('Spotify Circular/circular-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: bold;
+  font-display: swap;
+}
+
+
+body {
+  font-family: 'Circular', sans-serif;
+}

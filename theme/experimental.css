@@ -1,0 +1,32 @@
+/* Experimental Edits - Back to working version */
+
+.powerswoosh {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Apply card effect to mediaitem-card only (not powerswoosh) */
+.mediaitem-shelf-content.scrollable-right > div:nth-child(1) > div.mediaitem-card {
+    width: 35cqw;
+    display: flex;
+    align-items: start;
+    max-width: unset;
+}
+
+.mediaitem-shelf-content.scrollable-right > div:nth-child(1) > div.mediaitem-card > div:nth-child(2) {
+    background-image: linear-gradient(rgba(from var(--musicKeyColor) r g b / 0.3), rgba(from var(--musicKeyColor) r g b / 0.01));
+    height: 100%;
+    width: 100%;
+    margin: 0px 0px 0px 10px;
+    border-radius: 10px;
+}
+
+.mediaitem-shelf-content.scrollable-right > div:nth-child(1) > div.mediaitem-card > div:nth-child(2) > div {
+    font-size: 18px;
+    padding: 10px 20px 0px 20px;
+    overflow: hidden;
+}
+
+.ellipsis {
+    text-wrap-mode: wrap;
+}

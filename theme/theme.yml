@@ -1,0 +1,20 @@
+name: Ciderfy v2
+stylesheets:
+  - file: main.css
+    name: Main!
+    description: Ciderfy Main Stylesheet
+  - file: bg.css
+    name: BG Override!
+    description: Sets BG to Black (Removes Mica and Acrylic)
+  - file: experimental.css
+    name: Beta Features!
+    description: Experimental Features in development, feel free to edit these and
+      make improvements! DM me if you want to push them to stable.
+  - file: old_font.css
+    name: Spotify Circular Font 2024
+    description: Uses the old Spotify Circular Font from 2024
+  - file: font.css
+    name: Spotify Mix Font 2025
+    description: Uses the latest Spotify Mix Font from 2025
+#marketplaceID: 34
+version: 1.1.0
